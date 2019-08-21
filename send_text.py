@@ -4,8 +4,8 @@ from twilio.rest import Client
 
 # Your Account Sid and Auth Token from twilio.com/console
 # DANGER! This is insecure. See http://twil.io/secure
-account_sid = 'AC82135bb1241763b7ed2faf83a4d77739'
-auth_token = "ce33b172ef7208bd430e7a0083623857"
+account_sid = 'dfkjgdk;fjhdfkjgadfgb'
+auth_token = "skjlgdkjfsgkjdfgkjdghkj"
 client = Client(account_sid, auth_token)
 
 # NOTE: when creating a Twilio trial account I'm sure it gives you a trial phone number
