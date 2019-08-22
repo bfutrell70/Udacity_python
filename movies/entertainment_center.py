@@ -16,7 +16,7 @@ avatar = media.Movie("Avatar",
 #avatar.show_trailer()
 
 walle = media.Movie("WALL-E", 
-						"A robot finds live", 
+						"A robot finds love while cleaning up garbage", 
 						"https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/WALL-Eposter.jpg/220px-WALL-Eposter.jpg", 
 						"https://www.youtube.com/watch?v=ZisWjdjs-gM")
 
