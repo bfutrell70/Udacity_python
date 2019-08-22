@@ -12,5 +12,13 @@ avatar = media.Movie("Avatar",
 						"http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg", 
 						"https://www.youtube.com/watch?v=-9ceBgWV8io")
 
-print(avatar.storyline)
-avatar.show_trailer()
+#print(avatar.storyline)
+#avatar.show_trailer()
+
+walle = media.Movie("WALL-E", 
+						"A robot finds live", 
+						"https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/WALL-Eposter.jpg/220px-WALL-Eposter.jpg", 
+						"https://www.youtube.com/watch?v=ZisWjdjs-gM")
+
+print(walle.storyline)
+walle.show_trailer()
