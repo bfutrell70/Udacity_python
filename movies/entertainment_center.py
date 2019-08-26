@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story", 
 						"A story of a boy and his toys that come to life", 
@@ -42,3 +43,12 @@ hunger_games = media.Movie("Hunger Games",
 						"A really real reality show", 
 						"https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg", 
 						"https://www.youtube.com/watch?v=PbA63a7H0bo")
+
+movies = [toy_story, avatar, walle, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+
+#fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.VALID_RATINGS)
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+print(media.Movie.__module__)
